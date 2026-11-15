@@ -1,0 +1,7 @@
+# Versões fixadas na Etapa 14, a partir da execução final no Colab.
+tensorflow
+numpy
+pandas
+matplotlib
+scikit-learn
+kagglehub

@@ -1,0 +1,21 @@
+# Imagens e dados brutos: só a divisão da amostra é versionada
+dados/*
+!dados/.gitkeep
+!dados/divisao_amostra.csv
+
+# Modelos treinados (.keras)
+modelos/
+
+# Credenciais do Kaggle
+kaggle.json
+.kaggle/
+
+# Material de apoio da disciplina e plano (não versionados)
+material-apoio/
+
+# Jupyter e Python
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.venv/
+venv/
