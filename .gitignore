@@ -19,3 +19,6 @@ __pycache__/
 *.pyc
 .venv/
 venv/
+
+# Variáveis de ambiente locais (caminhos desta máquina)
+.env
