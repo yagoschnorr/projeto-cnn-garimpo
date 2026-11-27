@@ -1,7 +1,7 @@
-# Imagens e dados brutos: só a divisão da amostra é versionada
+# Imagens e dados brutos: só as divisões por semente são versionadas
 dados/*
 !dados/.gitkeep
-!dados/divisao_amostra.csv
+!dados/divisoes/
 
 # Modelos treinados (.keras)
 modelos/
@@ -22,3 +22,6 @@ venv/
 
 # Variáveis de ambiente locais (caminhos desta máquina)
 .env
+
+# Saídas do modo rápido (MODO_RAPIDO = True)
+rapido/
