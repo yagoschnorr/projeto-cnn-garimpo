@@ -1,5 +1,9 @@
-# Versões fixadas na Etapa 14, a partir da execução final no Colab.
-tensorflow
+# Versões em que os modelos .keras foram treinados e salvos.
+# Em GPU NVIDIA no Linux ou WSL2, instale "tensorflow[and-cuda]==2.21.*" no lugar de tensorflow.
+# Python 3.11.
+tensorflow==2.21.*
+keras==3.15.*
+# TODO: fixar as versões abaixo com "pip freeze" do ambiente do treino (Colab ou .venv).
 numpy
 pandas
 matplotlib
